@@ -119,11 +119,15 @@ a:hover{
 }
 
 .bottom-cloud{
-    width: 150px;
-    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
     position: absolute;
     left: 330px;
     bottom: 353px;
+}
+
+.mountains{
+    max-width: 100%;
 }
 
 .discription-last{
@@ -176,3 +180,88 @@ a:hover{
   }
 
 /******************** ID SELECTORS********************/
+
+
+
+/******************** Responsive ********************/
+
+
+@media screen and (min-width: 320px) and (max-width: 567px){
+
+
+
+    h1{
+        font-size: 3.75rem;
+    }
+
+    h2{
+        font-size: 2rem;
+        padding-bottom: 5px;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+    .top-cloud{
+        display: none;
+    }
+    .bottom-cloud{
+        display: none;
+    }
+    .mountains{
+        margin-top: auto;
+        padding-top: 125px;
+        
+    }
+    
+    .fullscreen{
+        position:relative;
+        top:0;
+        left:0;
+        bottom:0;
+        right:0;
+        height:100%;
+        width:100%;
+    }
+
+    .profile-pic{
+        width: 120px;
+        height: 120px;
+    }
+
+    .p1{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .web-skill{
+        float: none;
+        width: 45%;
+        margin: auto;
+    }
+
+    .ux-skill{
+        float: none;
+        width: 45%;
+        margin: auto;
+    }
+    
+    .skill-row{
+        width: 85%;
+        padding: 100px 0;
+        margin: auto;
+        text-align: center;
+        line-height: 2;
+    }
+
+    .discription-last{
+        width: 85%;
+        margin: 30px auto 60px;
+    }
+    .btn{
+        font-size: 1rem;
+    }
+
+
+
+}
