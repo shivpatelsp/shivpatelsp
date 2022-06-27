@@ -204,7 +204,7 @@ a:hover{
     }
     .top-container{
         position: relative;
-        height: 100vh;
+        height: 80vh;
     }
     .top-cloud{
         display: none;
@@ -218,6 +218,7 @@ a:hover{
         left: 0;
         right: 0;
         margin-top: auto;
+        padding-top: 125px;
         
     }
 
