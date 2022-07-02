@@ -202,9 +202,9 @@ a:hover{
     h3{
         font-size: 1rem;
     }
-    .top-container{
+    /* .top-container{
         position: relative;
-        height: 75vh;
+        height: 75vh; */
     }
     .top-cloud{
         display: none;
@@ -212,7 +212,7 @@ a:hover{
     .bottom-cloud{
         display: none;
     }
-    .mountains{
+    /* .mountains{
         position: absolute;
         bottom: 0;
         left: 0;
@@ -220,7 +220,7 @@ a:hover{
         margin-top: auto;
         padding-top: 125px;
         
-    }
+    } */
 
     .profile-pic{
         width: 120px;
