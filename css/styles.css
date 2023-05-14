@@ -88,13 +88,15 @@ a:hover{
 
 .web-skill{
     float: left;
-    width: 25%;
+    min-width: 200px;
+    max-width: 250px;
     margin-right: 30px;
 }
 
 .ux-skill{
     float: right;
-    width: 25%;
+    min-width: 200px;
+    max-width: 250px;
     margin-left: 30px;
 }
 
@@ -204,8 +206,8 @@ a:hover{
     }
     /* .top-container{
         position: relative;
-        height: 75vh; */
-    }
+        height: 75vh; 
+     } */
     .top-cloud{
         display: none;
     }
@@ -233,14 +235,14 @@ a:hover{
     }
 
     .web-skill{
-        float: none;
-        width: 45%;
+        /* float: none;
+        width: 45%; */
         margin: auto;
     }
 
     .ux-skill{
-        float: none;
-        width: 45%;
+        /* float: none;
+        width: 45%; */
         margin: auto;
     }
     
