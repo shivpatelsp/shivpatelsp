@@ -142,7 +142,7 @@ a:hover{
     bottom: 353px;
     -webkit-animation: linear infinite;
     -webkit-animation-name: runleft;
-    -webkit-animation-duration: 12s;
+    -webkit-animation-duration: 11s;
 }
 @-webkit-keyframes runleft {
     0% {
