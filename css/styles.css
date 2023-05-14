@@ -119,10 +119,10 @@ a:hover{
     right: 370px;
     top: 35px;
     -webkit-animation: linear infinite;
-    -webkit-animation-name: run;
+    -webkit-animation-name: runright;
     -webkit-animation-duration: 10s;
 }
-  @-webkit-keyframes run {
+  @-webkit-keyframes runright {
     0% {
       right: 25%;
     }
@@ -140,7 +140,21 @@ a:hover{
     position: absolute;
     left: 330px;
     bottom: 353px;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: runleft;
+    -webkit-animation-duration: 12s;
 }
+@-webkit-keyframes runleft {
+    0% {
+      left: 25%;
+    }
+    50% {
+      left: 30%;
+    }
+    100% {
+      left: 25%;    
+    }
+  }
 
 .mountains{
     max-width: 100%;
