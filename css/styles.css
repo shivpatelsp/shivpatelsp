@@ -33,8 +33,8 @@ hr{
     border-style: none;
     border-top-style: dotted;
     border-color: #EAF6F6;
-    border-width: 5px;
-    width: 4%;
+    border-width: 10px;
+    width: 5%;
     margin: 100px auto;
 }
 
@@ -203,6 +203,10 @@ a:hover{
 
     h3{
         font-size: 1rem;
+    }
+    hr{
+        border-width: 10px;
+        width: 15%;
     }
     /* .top-container{
         position: relative;
